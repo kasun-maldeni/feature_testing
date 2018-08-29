@@ -1,0 +1,4 @@
+<%= form_for @user, url: '/session' do |u| %>
+  <%= u.email_field :email %>
+  <%= u.password_field :password %>
+<% end %>
